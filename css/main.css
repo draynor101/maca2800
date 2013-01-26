@@ -1,0 +1,89 @@
+
+h1 {
+    font-family:'MatchbookMatchbookRegular';
+}
+
+a {
+	color:blue;
+	font-family: 'Kavoon', cursive;
+}
+
+.no-fontface .mainTitle {
+	background:url('../assets/images/h-1.png') top left no-repeat;
+	width:151px;
+	height:24px;
+	text-indent:-9999px;
+
+}
+
+header {
+	float:left;
+	clear:left;
+}
+
+section {
+	float:left;
+	clear:left;
+}
+
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+footer {
+	 float:left;
+	 clear:left;
+}
+
+.primary ul {
+	float:left;
+	list-style:none;
+	width:960px;
+	margin:0 auto;
+	padding:0px; 
+	box-shadow:0px 0px 5px black;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#444444)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #999999, #444444); /* Chrome 10+, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #999999, #444444); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #999999, #444444); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #999999, #444444); /* Firefox 16+, IE 10+, Opera 12.50+ */	
+}
+
+.primary li{
+	float:left;
+	padding:10px 20px;
+}
+
+.primary li ~ li {
+	border-left:solid 1px #000;
+}
+
+.primary li:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #444444, #999999); /* Chrome 10+, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #444444, #999999); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #444444, #999999); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #444444, #444444); /* Firefox 16+, IE 10+, Opera 12.50+ */	
+}
+
+.primary a {
+	color:white;
+	text-decoration:none;
+}
+
+.no-cssgradients .primary ul {
+	background:url('../assets/images/bg_gradient.png') repeat-x left top;
+}
+
+.no-cssgradients .primary li:hover {
+	background-position:left bottom; 
+	background:url('../assets/images/bg_gradient.png') repeat-x left bottom;
+
+}
+
+
+
+
+
+
