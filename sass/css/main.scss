@@ -1,0 +1,28 @@
+@import "mixins";
+
+$textColor:blue;
+$wrapperWidth:800px;
+$items:5;
+
+
+body {
+	color:$textColor;
+}
+
+#myDiv {
+	width:$wrapperWidth;
+	border:solid 1px $textColor;
+	@include vendor( transform, translate( 100px, 100px) );
+ 
+	ul {
+		background-color:$textColor;
+		color:#fff;
+		width:100%;
+	}
+
+	li {
+		float:left;
+		width:$wrapperWidth / $items;
+		@include vendor ( transition, opacity 0.5s ease-in );
+	}
+}

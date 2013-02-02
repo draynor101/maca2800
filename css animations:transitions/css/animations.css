@@ -1,0 +1,62 @@
+
+#myDiv {
+	width:300px;
+	height:300px;
+	background-color:red;
+	box-shadow:0 0 10px rgba(0,0,0,0.75);
+	/*-webkit-animation-name:myAnimation;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function:ease-in;*/
+
+	/*shorthand*/
+	-webkit-animation:myAnimation 3s ease-in;
+
+}
+
+/* 
+css3 browser prefixes
+
+@-webkit-keyframes myAnimation {} 	//webkit browsers
+@-moz-keyframes myAnimation {}	// firefox
+@-ms-keyframes myAnimation {}	// internet explorer
+@-o-keyframes myAnimation {}	// internet explorer 
+@keyframes myAnimation {}	// always comes last (standardized one)
+
+*/
+
+@-webkit-keyframes myAnimation {
+	/*from {
+		width:300px;
+		height:300px;
+		background-color:red; 
+	} 
+
+	to {
+		width:1000px;
+		height:1000px;
+		background-color:black; 	
+	}*/
+
+	0% {
+		width:300px;
+		height:300px;
+		background-color:red; 
+	} 
+
+	60% {
+		width:1000px;
+		height:1000px;
+		background-color:black; 	
+	}
+
+	100% {
+		width:300px;
+		height:300px;
+		background-color:blue;	
+	}
+
+}
+
+
+
+
