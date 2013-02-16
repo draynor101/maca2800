@@ -1,0 +1,19 @@
+body {
+	background-color:#59def8;
+}
+
+#rocket {
+	background:url('logo-animation-sprite.png') top left no-repeat;
+	width:85px;
+	height:85px;
+	-webkit-animation:rocket 0.5s steps(5) infinite;
+}
+
+@-webkit-keyframes rocket {
+	0% {
+		background-position:0px 0px; 
+	}
+	100% {
+		background-position:-425px 0px;
+	}
+}
